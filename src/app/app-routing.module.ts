@@ -6,7 +6,7 @@ import {CustomersComponent} from "./customers/customers.component";
 import {ProductsResolver} from "./resolver/products.resolver";
 
 const routes: Routes = [
-  {path : 'products', component : ProductsComponent, resolve : {products : ProductsResolver}},
+  {path : '', component : ProductsComponent, resolve : {products : ProductsResolver}},
   {path : 'customers', component : CustomersComponent}
 
 ];
