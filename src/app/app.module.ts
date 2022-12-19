@@ -11,13 +11,15 @@ import { CustomersComponent } from './customers/customers.component';
 import {ProductsService} from "./service/products.service";
 import {HttpClientModule} from "@angular/common/http";
 import {ProductsResolver} from "./resolver/products.resolver";
+import { BillingComponent } from './billing/billing.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    CustomersComponent
+    CustomersComponent,
+    BillingComponent
   ],
   imports: [
     BrowserModule,
